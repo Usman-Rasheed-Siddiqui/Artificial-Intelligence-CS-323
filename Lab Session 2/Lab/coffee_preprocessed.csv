@@ -1,0 +1,11 @@
+aroma,body,flavor,roast_level,est_price,aroma_Normalized,body_Standardized,est_price_Scaled,roast_level_Ordinal,"origin_Cauca Department, Colombia",origin_Ethiopia,"origin_Ethiopia, Brazil, Mexico, Papua New Guinea","origin_Jarabacoa, Dominican Republic","origin_Kona growing region, Hawai’i Island, Hawai'i","origin_Palestina, Huila Department, Colombia","origin_Planadas, Tolima Department, Colombia","origin_Sidamo growing region, southern Ethiopia","origin_Tolima Department, Colombia",flavor_Binned,rating
+9.0,9.0,10.0,Medium-Light,50.0,1.0,0.6546536707079788,0.07194728660587922,1.0,0,0,0,0,1,0,0,0,0,Outstanding,96.0
+9.0,9.0,10.0,Medium-Light,26.0,1.0,0.6546536707079788,0.016264123802231974,1.0,0,0,0,0,0,0,0,0,1,Outstanding,96.0
+8.0,9.0,9.0,Medium-Light,19.99,0.0,0.6546536707079788,0.0023201317834853075,1.0,0,0,0,1,0,0,0,0,0,Excellent,92.0
+9.0,8.0,9.0,Medium-Light,18.99,1.0,-1.5275252316519454,0.0,1.0,0,1,0,0,0,0,0,0,0,Excellent,93.0
+8.0,9.0,9.0,Light,24.0,0.0,0.6546536707079788,0.011623860235261366,0.0,0,0,0,0,0,0,1,0,0,Excellent,93.0
+9.0,9.0,9.0,Medium-Light,24.0,1.0,0.6546536707079788,0.011623860235261366,1.0,1,0,0,0,0,0,0,0,0,Excellent,94.0
+9.0,9.0,9.0,Medium-Light,28.0,1.0,0.6546536707079788,0.02090438736920258,1.0,0,0,0,0,0,1,0,0,0,Excellent,95.0
+9.0,9.0,9.0,Light,450.0,1.0,0.6546536707079788,0.9999999999999999,0.0,0,0,0,0,0,0,0,1,0,Excellent,93.0
+9.0,8.0,9.0,Light,450.0,1.0,-1.5275252316519454,0.9999999999999999,0.0,0,0,0,0,0,0,0,1,0,Excellent,93.0
+8.0,8.0,9.0,Medium-Light,20.25,0.0,-1.5275252316519454,0.0029233660471914905,1.0,0,0,1,0,0,0,0,0,0,Excellent,92.0
