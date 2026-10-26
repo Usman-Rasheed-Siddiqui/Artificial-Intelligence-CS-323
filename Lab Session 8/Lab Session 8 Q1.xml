@@ -1,0 +1,77 @@
+<CSPIF VERSION="0.01">
+<CSP>
+<NAME>Untitled</NAME>
+<DESCRIPTION>
+	<SHORT></SHORT>
+	<DETAILED></DETAILED>
+</DESCRIPTION>
+<VARIABLE TYPE="String">
+	<NAME>father</NAME>
+	<VALUE>bicycle</VALUE>
+	<VALUE>car</VALUE>
+	<PROPERTY>position = (7531.7515, 5200.074)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="String">
+	<NAME>mother</NAME>
+	<VALUE>bicycle</VALUE>
+	<VALUE>car</VALUE>
+	<PROPERTY>position = (7988.8467, 5192.284)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="String">
+	<NAME>son</NAME>
+	<VALUE>bicycle</VALUE>
+	<VALUE>car</VALUE>
+	<VALUE>pogo_stick</VALUE>
+	<PROPERTY>position = (7987.549, 5450.699)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="String">
+	<NAME>daughter</NAME>
+	<VALUE>bicycle</VALUE>
+	<VALUE>car</VALUE>
+	<PROPERTY>position = (7530.451, 5446.805)</PROPERTY>
+</VARIABLE>
+<CONSTRAINT TYPE="Custom">
+	<CUSTOMNAME>Total Bicycles</CUSTOMNAME>
+	<GIVEN>son</GIVEN>
+	<GIVEN>daughter</GIVEN>
+	<GIVEN>mother</GIVEN>
+	<GIVEN>father</GIVEN>
+	<TABLE>
+		F F F T F T T T F T T T T T T T F T T T T T T T 
+	</TABLE>
+	<PROPERTY>position = (7768.0903, 5222.152)</PROPERTY>
+</CONSTRAINT>
+<CONSTRAINT TYPE="Custom">
+	<CUSTOMNAME>Total Cars</CUSTOMNAME>
+	<GIVEN>daughter</GIVEN>
+	<GIVEN>son</GIVEN>
+	<GIVEN>mother</GIVEN>
+	<GIVEN>father</GIVEN>
+	<TABLE>
+		T T T T T T T T T T T T T T T T T T T F T T T T 
+	</TABLE>
+	<PROPERTY>position = (7770.69, 5407.8477)</PROPERTY>
+</CONSTRAINT>
+<CONSTRAINT TYPE="Custom">
+	<CUSTOMNAME>Son = Daughter</CUSTOMNAME>
+	<GIVEN>son</GIVEN>
+	<GIVEN>daughter</GIVEN>
+	<TABLE>
+		T F F T F F 
+	</TABLE>
+	<PROPERTY>position = (7762.896, 5566.273)</PROPERTY>
+</CONSTRAINT>
+<CONSTRAINT TYPE="Custom">
+	<CUSTOMNAME>Parenting</CUSTOMNAME>
+	<GIVEN>son</GIVEN>
+	<GIVEN>daughter</GIVEN>
+	<GIVEN>mother</GIVEN>
+	<GIVEN>father</GIVEN>
+	<TABLE>
+		T T T T F T T T F T T T F T T F T T T T F T T T 
+	</TABLE>
+	<PROPERTY>position = (7770.69, 5063.7266)</PROPERTY>
+</CONSTRAINT>
+</CSP>
+</CSPIF>
+
