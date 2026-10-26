@@ -1,0 +1,77 @@
+<CSPIF VERSION="0.01">
+<CSP>
+<NAME>Crossword Problem 1</NAME>
+<DESCRIPTION>
+	<SHORT>Family Commute CSP</SHORT>
+	<DETAILED>A family of four needs to figure out how each family member will get to work or school based on several constraints.</DETAILED>
+</DESCRIPTION>
+<VARIABLE TYPE="String">
+	<NAME>Mom</NAME>
+	<VALUE>car</VALUE>
+	<VALUE>bike</VALUE>
+	<PROPERTY>position = (7210.1626, 5119.2246)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="String">
+	<NAME>Dad</NAME>
+	<VALUE>car</VALUE>
+	<VALUE>bike</VALUE>
+	<PROPERTY>position = (7655.2207, 5155.0845)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="String">
+	<NAME>Daughter</NAME>
+	<VALUE>car</VALUE>
+	<VALUE>bike</VALUE>
+	<PROPERTY>position = (7587.7227, 5452.4907)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="String">
+	<NAME>Son</NAME>
+	<VALUE>car</VALUE>
+	<VALUE>bike</VALUE>
+	<VALUE>pogo-stick</VALUE>
+	<PROPERTY>position = (7211.7793, 5402.5425)</PROPERTY>
+</VARIABLE>
+<CONSTRAINT TYPE="Custom">
+	<CUSTOMNAME>GoTogether</CUSTOMNAME>
+	<GIVEN>Son</GIVEN>
+	<GIVEN>Daughter</GIVEN>
+	<TABLE>
+		T F F T F F 
+	</TABLE>
+	<PROPERTY>position = (7379.959, 5434.563)</PROPERTY>
+</CONSTRAINT>
+<CONSTRAINT TYPE="Custom">
+	<CUSTOMNAME>RideAlong</CUSTOMNAME>
+	<GIVEN>Son</GIVEN>
+	<GIVEN>Daughter</GIVEN>
+	<GIVEN>Dad</GIVEN>
+	<GIVEN>Mom</GIVEN>
+	<TABLE>
+		T T T F T T T F T T T F T T T T T T T F T T T T 
+	</TABLE>
+	<PROPERTY>position = (7383.1226, 5300.624)</PROPERTY>
+</CONSTRAINT>
+<CONSTRAINT TYPE="Custom">
+	<CUSTOMNAME>CarFits3</CUSTOMNAME>
+	<GIVEN>Son</GIVEN>
+	<GIVEN>Daughter</GIVEN>
+	<GIVEN>Dad</GIVEN>
+	<GIVEN>Mom</GIVEN>
+	<TABLE>
+		F T T T T T T T T T T T T T T T T T T T T T T T 
+	</TABLE>
+	<PROPERTY>position = (7389.4497, 5047.5093)</PROPERTY>
+</CONSTRAINT>
+<CONSTRAINT TYPE="Custom">
+	<CUSTOMNAME>2Bikes</CUSTOMNAME>
+	<GIVEN>Son</GIVEN>
+	<GIVEN>Daughter</GIVEN>
+	<GIVEN>Dad</GIVEN>
+	<GIVEN>Mom</GIVEN>
+	<TABLE>
+		T T T T T T T F T T T F T F F F T T T T T T T F 
+	</TABLE>
+	<PROPERTY>position = (7382.609, 5173.2065)</PROPERTY>
+</CONSTRAINT>
+</CSP>
+</CSPIF>
+
